@@ -1,4 +1,5 @@
-Wip Project Contact me to learn more 
+Wip Project Contact me to learn more ...
+Please run before starting your work pip install -r requirement.txt.
+created by Team runtime ninjas.
 
-created by Team runtime ninjas 
-Please run before starting your work pip install -r requirement.txt
+
