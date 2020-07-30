@@ -68,11 +68,11 @@ def start():
                 name = personName[Index].upper()
                 print(name)
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                cv2.putText(frame, f'{name}', (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0))
+                cv2.putText(frame, f'{name}', (x1, y1-5), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255, 0))
                 markAttendance(name)
             else:
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
-                cv2.putText(frame, f'unknown', (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255))
+                cv2.putText(frame, f'unknown', (x1, y1-5), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255))
 
         cv2.imshow("Webcam", frame)
         key = cv2.waitKey(1)
