@@ -39,7 +39,7 @@ def start():
             for dataLine in myDataList:
                 entry = dataLine.split(',')
                 nameList.append(entry[0])
-            if name not in dataLine:
+            if name not in nameList:
                 now = datetime.now()
                 dt_string = now.strftime("%H:%M:%S")
                 f.writelines(f'\n{name},{dt_string}')
