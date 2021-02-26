@@ -12,14 +12,13 @@
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built with love">
 </p>
 
-
 <p align="center">
   <a href="#introduction">Introduction</a> •
-  <a href="#requirement">Requirements</a>  •
+  <a href="#requirements">Requirements</a>  •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a>               •
   <a href="#how-it-works">How it Works</a> •
-  <a href="#thanks">Thanks</a>
+  <a href="#thanks">Thanks ❤</a>
 </p>
 
 ---
@@ -100,7 +99,7 @@ Checkout article by Adam Geitgey on [Face Rencogniton](https://medium.com/@ageit
 - Later these encoded measurements are compared for recognizing face from Database
 - If encodings are matched, Attendance is written in Csv File with Name & Time  
 
-##Thanks
+## Thanks
 - Adam Geitgey for creating [face-recognition](https://github.com/ageitgey/face_recognition) library to provide an easy way of using of dlib's state of art recognition model.
 - Davis King for creating [dlib](https://github.com/davisking/dlib), which provides facial features, face encoding models & face detection algorithms.
 - Shoutout to developers & contributors of OpenCv, Pillow, Pip, Numpy, Scikit-Image, Tkinter, Scipy.
